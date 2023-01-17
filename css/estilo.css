@@ -1,0 +1,429 @@
+@font-face {
+  font-family: "Faustina-Regular";
+  src:url("Faustina-Regular.ttf");
+}
+p{
+  font-family: "Faustina-Regular";
+}
+li{
+  font-family: "Faustina-Regular";
+}
+@font-face {
+  font-family: "Trocchi-Regular";
+  src:url("Trocchi-Regular.ttf");
+}
+h1{
+  font-family: "Trocchi-Regular";
+  font-size: 30px;
+  text-align: center;
+}
+h2{
+  font-family: "Trocchi-Regular";
+}
+@font-face {
+  font-family: "CreteRound-Regular";
+  src:url("CreteRound-Regular.ttf");
+}
+a{
+  font-family: "CreteRound-Regular";
+}
+
+body{
+  margin: 0;
+}
+.menu{
+  box-sizing: border-box;
+  width: 100%;
+  height: 71px;
+  margin: 0 auto;
+}
+
+.contenidome{
+  text-align: center;
+  box-sizing: border-box;
+  padding: 1.5em;
+  width: 20%;
+  height: 70px;
+  background: red;
+  float: left;
+  border-right: 1px solid #e60000;
+}
+.activo{
+  background: linear-gradient(to bottom, red, blue);
+}
+
+a:link {
+  color: #ffffff;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: #ffffff;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: #ffffff;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:active {
+  color: #ffffff;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.encabesado{
+  box-sizing: border-box;
+  width: 100%;
+  height: 90px;
+  margin: 0 auto;
+  float: left;
+}
+
+.contenidoenca{
+    box-sizing: border-box;
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.contenidoenca2{
+    box-sizing: border-box;
+    text-align: right;
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+.pagina{
+  box-sizing: border-box;
+  height: 530px;
+
+}
+.paginap{
+  box-sizing: border-box;
+  height: 530px;
+  text-align: center;
+  margin-top: 6em;
+}
+.contenidopag{
+  height: 50%;
+  text-align: center;
+}
+.contenidopagca{
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 7em;
+}
+/*---------carrusel------------*/
+.flexslider{
+  width: 460px;
+  height: 230px;
+  position: relative;
+  margin: 0 auto;
+}
+.slides{
+  overflow: hidden;
+}
+
+.slides img{
+  width: 100%;
+}
+
+.slides,
+.flex-control-nav,
+.flex-direction-nav{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.flex-control-nav{
+  width: 100%;
+  text-align: center;
+}
+
+.flex-control-nav li{
+  display: inline-block;
+  margin: 0 6px;
+}
+
+.flex-control-nav li a{
+  display: block;
+  background: #777777;
+  width: 12px;
+  height: 12px;
+  border-radius: 12px;
+  text-indent: -9999px;
+}
+
+.flex-control-nav li a:hover{
+  background: #2E2E2E;
+}
+
+.flex-control-nav li a.flex-active{
+  background: #2E2E2E;
+}
+
+.flex-direction-nav a{
+  display: block;
+  text-decoration: none;
+  position: absolute;
+  top: 50%;
+  z-index: 999;
+}
+/*-----------------------------*/
+input{
+  text-align: center;
+  background: #d9d9d9;
+  border-radius: 7px;
+}
+input:focus{
+  border-radius: 7px;
+}
+input[type=button]{
+  color: #ffffff;
+  background: red;
+  border-radius: 7px;
+}
+input[type=submit]{
+  color: #ffffff;
+  background: red;
+  border-radius: 7px;
+}
+input[name="agregarc"]{
+  margin-left: 1em;
+}
+
+.elementopag1{
+  box-sizing: border-box;
+  width: 50%;
+  float: left;
+  align-items: center;
+  padding-top: 2.5em;
+  vertical-align: middle;
+  font-size: 20px;
+}
+.elementopag2{
+  text-align: center;
+  box-sizing: border-box;
+  width: 50%;
+  float: left;
+  padding: 3em 0em 0em 12em;
+}
+p.pag1{
+  width: 15em;
+  word-wrap: break-word;
+  display: inline-block;
+}
+.pie{
+  box-sizing: border-box;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+}
+.contenidopie1{
+  text-align: center;
+  box-sizing: border-box;
+  height: 50%;
+}
+.contenidopie2{
+  text-align: center;
+  box-sizing: border-box;
+  height: 50%;
+  color: #ffffff;
+  background: gray;
+  padding-top: 1px;
+}
+.contenidoregi1{
+  text-align: center;
+  box-sizing: border-box;
+  width: 50%;
+  float: left;
+  padding: 0em 17em 0em 5em;
+}
+.contenidoregi2{
+  box-sizing: border-box;
+  width: 50%;
+  height: 80%;
+  float: left;
+  padding-top: 1em;
+}
+.elementoregi{
+  box-sizing: border-box;
+}
+.elementoquien1{
+  box-sizing: border-box;
+  width: 50%;
+  height: 40%;
+  float: left;
+  text-align: justify;
+  padding: 0em 2em 0em 3em;
+}
+.elementoquien2{
+  box-sizing: border-box;
+  width: 50%;
+  height: 45%;
+  float: left;
+  padding: 0em 0em 0em 5em;
+}
+.contenidomisi{
+  box-sizing: border-box;
+  height: 50%;
+  text-align: center;
+}
+.contenidomisi2{
+  box-sizing: border-box;
+  height: 50%;
+  text-align: center;
+  padding: 0;
+}
+.elementomist{
+  box-sizing: border-box;
+  width: 33.333%;
+  float: left;
+  text-align: center;
+}
+.elementomisi{
+  box-sizing: border-box;
+  width: 33.333%;
+  float: left;
+  padding-top: 3em;
+}
+.contenidoayuda1{
+  box-sizing: border-box;
+  width: 50%;
+  float: left;
+}
+input[name=comentarioayu]{
+  box-sizing: border-box;
+  width: 90%;
+  height: 300px;
+  text-align: left;
+}
+.contenidoayuda2{
+  box-sizing: border-box;
+  width: 50%;
+  text-align: center;
+  padding-top: 5em;
+  float: left;
+}
+
+iframe{
+  box-sizing: border-box;
+  width: 98%;
+  height: 80%;
+  border-radius: 7px;
+  margin: 0 auto;
+}
+
+input[name=agregarc]{
+  margin-top: 1.5em;
+}
+.contenidopago{
+  box-sizing: border-box;
+  width: 100%;
+  margin-left: 0;
+  text-align: center;
+  display: inline-block;
+}
+.elementopago{
+  box-sizing: border-box;
+  width: 40%;
+  height: 100%;
+  float: left;
+  border: 1px solid red;
+  text-align: center;
+  margin: 3em;
+  padding: 2em;
+}
+.elementopago2{
+  box-sizing: border-box;
+  width: 50%;
+  height: 100%;
+  float: left;
+  text-align: center;
+  margin-top: 3em;
+  vertical-align: middle;
+}
+.contenidopago iframe{
+  box-sizing: border-box;
+  width: 90%;
+  height: 100%;
+  border: 1px solid red;
+}
+p.caja{
+  align: center;
+  width: 16em;
+  text-align: center;
+  word-wrap: break-word;
+  display: inline-block;
+}
+p.cajami{
+  width: 30em;
+  text-align: center;
+  word-wrap: break-word;
+  display: inline-block;
+}
+p.pmision{
+  width: 15em;
+  display: inline-block;
+}
+
+.bloque{
+  box-sizing: border-box;
+  width: 50%;
+  float: left;
+}
+.elemento{
+  box-sizing: border-box;
+  width: 100%;
+  float: left;
+}
+.componente1{
+  box-sizing: border-box;
+  width: 35%;
+  height: 180px;
+  float: left;
+}
+.componente2{
+  box-sizing: border-box;
+  width: 65%;
+  height: 180px;
+  float: left;
+}
+
+    /*-------pestaña----------*/
+
+.paginap iframe{
+  height: 420px;
+}
+
+.paginap ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  margin-left: 1em;
+}
+.paginap li{
+  float: left;
+  background: red;
+  border-top-right-radius: 20px;
+}
+.paginap li a{
+  display: inline-block;
+  color: White;
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none;
+  background: red;
+  border-top-right-radius: 20px;
+}
+.paginap li a:hover{
+  border-top-right-radius: 20px;
+  background: #C5270B;
+}
+
+.paginap div #tabs{
+  height: 500px;
+}
